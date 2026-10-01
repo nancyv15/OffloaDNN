@@ -1,0 +1,177 @@
+{
+  "feasible": true,
+  "decisions": [
+    {
+      "task": "task1",
+      "model": "Yolov5x",
+      "path": "prune85/dining_table/frozen_0",
+      "quality_level": 2,
+      "admission_ratio": 0.7155555555555501,
+      "resource_blocks": 9
+    },
+    {
+      "task": "task2",
+      "model": "Yolov5x",
+      "path": "prune85/dining_table/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task3",
+      "model": "Yolov5x",
+      "path": "prune85/dog/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task4",
+      "model": "Yolov5x",
+      "path": "prune85/dog/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task5",
+      "model": "Yolov5x",
+      "path": "prune70/horse/frozen_0",
+      "quality_level": 3,
+      "admission_ratio": 0.7553977492011642,
+      "resource_blocks": 4
+    },
+    {
+      "task": "task6",
+      "model": "Yolov5x",
+      "path": "prune70/horse/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task7",
+      "model": "Yolov5x",
+      "path": "prune85/motorbike/frozen_0",
+      "quality_level": 2,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task8",
+      "model": "Yolov5x",
+      "path": "prune85/motorbike/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task9",
+      "model": "Yolov5x",
+      "path": "prune85/person/frozen_0",
+      "quality_level": 3,
+      "admission_ratio": 0.5665483119008731,
+      "resource_blocks": 3
+    },
+    {
+      "task": "task10",
+      "model": "Yolov5x",
+      "path": "prune85/person/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task11",
+      "model": "Yolov5x",
+      "path": "prune85/dining_table/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task12",
+      "model": "Yolov5x",
+      "path": "prune85/dining_table/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 2
+    },
+    {
+      "task": "task13",
+      "model": "Yolov5x",
+      "path": "prune85/dog/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task14",
+      "model": "Yolov5x",
+      "path": "prune85/dog/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task15",
+      "model": "Yolov5x",
+      "path": "prune70/horse/frozen_0",
+      "quality_level": 2,
+      "admission_ratio": 0.23379241006895396,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task16",
+      "model": "Yolov5x",
+      "path": "prune70/horse/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task17",
+      "model": "Yolov5x",
+      "path": "prune85/motorbike/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task18",
+      "model": "Yolov5x",
+      "path": "prune85/motorbike/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 1.0,
+      "resource_blocks": 1
+    },
+    {
+      "task": "task19",
+      "model": "Yolov5x",
+      "path": "prune85/person/frozen_0",
+      "quality_level": 2,
+      "admission_ratio": 0.0,
+      "resource_blocks": 0
+    },
+    {
+      "task": "task20",
+      "model": "Yolov5x",
+      "path": "prune85/person/frozen_0",
+      "quality_level": 1,
+      "admission_ratio": 0.0,
+      "resource_blocks": 0
+    }
+  ],
+  "metrics": {
+    "dot_cost": 2.0691660575431827,
+    "weighted_admission_ratio": 9.469940465077691,
+    "radio_usage": 0.5279005668515236,
+    "compute_usage": 0.6501874918128773,
+    "memory_mib": 7802.0,
+    "training_cost_s": 10919.0
+  },
+  "timing_ms": {
+    "branch_selection": 1.2751289905281737,
+    "resource_allocation": 58.17440099781379
+  }
+}

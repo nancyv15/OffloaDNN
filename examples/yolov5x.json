@@ -1,0 +1,4227 @@
+{
+ "name": "Yolov5x",
+ "task_head_memory_mib": {
+  "od": 351.0,
+  "is": 401.0
+ },
+ "blocks": [
+  {
+   "id": "b4",
+   "memory_mib": 135.0
+  },
+  {
+   "id": "b5",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b6",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b7",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b0",
+   "memory_mib": 135.0
+  },
+  {
+   "id": "b8",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b9",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b10",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b1",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b11",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b12",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b2",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b13",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b3",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b14",
+   "memory_mib": 135.0
+  },
+  {
+   "id": "b15",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b16",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b17",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b18",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b19",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b20",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b21",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b22",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b23",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b24",
+   "memory_mib": 135.0
+  },
+  {
+   "id": "b25",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b26",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b27",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b28",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b29",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b30",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b31",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b32",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b33",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b34",
+   "memory_mib": 135.0
+  },
+  {
+   "id": "b35",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b36",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b37",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b38",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b39",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b40",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b41",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b42",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b43",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b44",
+   "memory_mib": 135.0
+  },
+  {
+   "id": "b45",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b46",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b47",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b48",
+   "memory_mib": 225.0
+  },
+  {
+   "id": "b49",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b50",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b51",
+   "memory_mib": 395.0
+  },
+  {
+   "id": "b52",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b53",
+   "memory_mib": 143.0
+  },
+  {
+   "id": "b58",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b59",
+   "memory_mib": 113.0
+  },
+  {
+   "id": "b60",
+   "memory_mib": 198.0
+  },
+  {
+   "id": "b61",
+   "memory_mib": 72.0
+  },
+  {
+   "id": "b54",
+   "memory_mib": 119.0
+  },
+  {
+   "id": "b62",
+   "memory_mib": 109.0
+  },
+  {
+   "id": "b63",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b64",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b55",
+   "memory_mib": 212.33
+  },
+  {
+   "id": "b65",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b66",
+   "memory_mib": 61.0
+  },
+  {
+   "id": "b56",
+   "memory_mib": 361.0
+  },
+  {
+   "id": "b67",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b57",
+   "memory_mib": 138.0
+  },
+  {
+   "id": "b68",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b69",
+   "memory_mib": 113.0
+  },
+  {
+   "id": "b70",
+   "memory_mib": 198.0
+  },
+  {
+   "id": "b71",
+   "memory_mib": 72.0
+  },
+  {
+   "id": "b72",
+   "memory_mib": 109.0
+  },
+  {
+   "id": "b73",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b74",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b75",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b76",
+   "memory_mib": 61.0
+  },
+  {
+   "id": "b77",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b78",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b79",
+   "memory_mib": 113.0
+  },
+  {
+   "id": "b80",
+   "memory_mib": 198.0
+  },
+  {
+   "id": "b81",
+   "memory_mib": 72.0
+  },
+  {
+   "id": "b82",
+   "memory_mib": 109.0
+  },
+  {
+   "id": "b83",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b84",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b85",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b86",
+   "memory_mib": 61.0
+  },
+  {
+   "id": "b87",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b88",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b89",
+   "memory_mib": 113.0
+  },
+  {
+   "id": "b90",
+   "memory_mib": 198.0
+  },
+  {
+   "id": "b91",
+   "memory_mib": 72.0
+  },
+  {
+   "id": "b92",
+   "memory_mib": 109.0
+  },
+  {
+   "id": "b93",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b94",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b95",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b96",
+   "memory_mib": 61.0
+  },
+  {
+   "id": "b97",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b98",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b99",
+   "memory_mib": 113.0
+  },
+  {
+   "id": "b100",
+   "memory_mib": 198.0
+  },
+  {
+   "id": "b101",
+   "memory_mib": 72.0
+  },
+  {
+   "id": "b102",
+   "memory_mib": 109.0
+  },
+  {
+   "id": "b103",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b104",
+   "memory_mib": 68.0
+  },
+  {
+   "id": "b105",
+   "memory_mib": 192.0
+  },
+  {
+   "id": "b106",
+   "memory_mib": 61.0
+  },
+  {
+   "id": "b107",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b112",
+   "memory_mib": 47.0
+  },
+  {
+   "id": "b113",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b114",
+   "memory_mib": 138.0
+  },
+  {
+   "id": "b115",
+   "memory_mib": 50.0
+  },
+  {
+   "id": "b108",
+   "memory_mib": 115.25
+  },
+  {
+   "id": "b116",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b117",
+   "memory_mib": 144.0
+  },
+  {
+   "id": "b118",
+   "memory_mib": 52.0
+  },
+  {
+   "id": "b109",
+   "memory_mib": 208.67
+  },
+  {
+   "id": "b119",
+   "memory_mib": 148.0
+  },
+  {
+   "id": "b120",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b110",
+   "memory_mib": 351.0
+  },
+  {
+   "id": "b121",
+   "memory_mib": 66.0
+  },
+  {
+   "id": "b111",
+   "memory_mib": 140.0
+  },
+  {
+   "id": "b122",
+   "memory_mib": 47.0
+  },
+  {
+   "id": "b123",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b124",
+   "memory_mib": 138.0
+  },
+  {
+   "id": "b125",
+   "memory_mib": 50.0
+  },
+  {
+   "id": "b126",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b127",
+   "memory_mib": 144.0
+  },
+  {
+   "id": "b128",
+   "memory_mib": 52.0
+  },
+  {
+   "id": "b129",
+   "memory_mib": 148.0
+  },
+  {
+   "id": "b130",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b131",
+   "memory_mib": 66.0
+  },
+  {
+   "id": "b132",
+   "memory_mib": 47.0
+  },
+  {
+   "id": "b133",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b134",
+   "memory_mib": 138.0
+  },
+  {
+   "id": "b135",
+   "memory_mib": 50.0
+  },
+  {
+   "id": "b136",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b137",
+   "memory_mib": 144.0
+  },
+  {
+   "id": "b138",
+   "memory_mib": 52.0
+  },
+  {
+   "id": "b139",
+   "memory_mib": 148.0
+  },
+  {
+   "id": "b140",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b141",
+   "memory_mib": 66.0
+  },
+  {
+   "id": "b142",
+   "memory_mib": 47.0
+  },
+  {
+   "id": "b143",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b144",
+   "memory_mib": 138.0
+  },
+  {
+   "id": "b145",
+   "memory_mib": 50.0
+  },
+  {
+   "id": "b146",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b147",
+   "memory_mib": 144.0
+  },
+  {
+   "id": "b148",
+   "memory_mib": 52.0
+  },
+  {
+   "id": "b149",
+   "memory_mib": 148.0
+  },
+  {
+   "id": "b150",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b151",
+   "memory_mib": 66.0
+  },
+  {
+   "id": "b152",
+   "memory_mib": 47.0
+  },
+  {
+   "id": "b153",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b154",
+   "memory_mib": 138.0
+  },
+  {
+   "id": "b155",
+   "memory_mib": 50.0
+  },
+  {
+   "id": "b156",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b157",
+   "memory_mib": 144.0
+  },
+  {
+   "id": "b158",
+   "memory_mib": 52.0
+  },
+  {
+   "id": "b159",
+   "memory_mib": 148.0
+  },
+  {
+   "id": "b160",
+   "memory_mib": 62.0
+  },
+  {
+   "id": "b161",
+   "memory_mib": 66.0
+  },
+  {
+   "id": "b166",
+   "memory_mib": 27.0
+  },
+  {
+   "id": "b167",
+   "memory_mib": 45.0
+  },
+  {
+   "id": "b168",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b169",
+   "memory_mib": 29.0
+  },
+  {
+   "id": "b162",
+   "memory_mib": 117.5
+  },
+  {
+   "id": "b170",
+   "memory_mib": 81.0
+  },
+  {
+   "id": "b171",
+   "memory_mib": 82.0
+  },
+  {
+   "id": "b172",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b163",
+   "memory_mib": 212.0
+  },
+  {
+   "id": "b173",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b174",
+   "memory_mib": 33.0
+  },
+  {
+   "id": "b164",
+   "memory_mib": 279.0
+  },
+  {
+   "id": "b175",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b165",
+   "memory_mib": 142.0
+  },
+  {
+   "id": "b176",
+   "memory_mib": 27.0
+  },
+  {
+   "id": "b177",
+   "memory_mib": 45.0
+  },
+  {
+   "id": "b178",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b179",
+   "memory_mib": 29.0
+  },
+  {
+   "id": "b180",
+   "memory_mib": 81.0
+  },
+  {
+   "id": "b181",
+   "memory_mib": 82.0
+  },
+  {
+   "id": "b182",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b183",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b184",
+   "memory_mib": 33.0
+  },
+  {
+   "id": "b185",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b186",
+   "memory_mib": 27.0
+  },
+  {
+   "id": "b187",
+   "memory_mib": 45.0
+  },
+  {
+   "id": "b188",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b189",
+   "memory_mib": 29.0
+  },
+  {
+   "id": "b190",
+   "memory_mib": 81.0
+  },
+  {
+   "id": "b191",
+   "memory_mib": 82.0
+  },
+  {
+   "id": "b192",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b193",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b194",
+   "memory_mib": 33.0
+  },
+  {
+   "id": "b195",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b196",
+   "memory_mib": 27.0
+  },
+  {
+   "id": "b197",
+   "memory_mib": 45.0
+  },
+  {
+   "id": "b198",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b199",
+   "memory_mib": 29.0
+  },
+  {
+   "id": "b200",
+   "memory_mib": 81.0
+  },
+  {
+   "id": "b201",
+   "memory_mib": 82.0
+  },
+  {
+   "id": "b202",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b203",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b204",
+   "memory_mib": 33.0
+  },
+  {
+   "id": "b205",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b206",
+   "memory_mib": 27.0
+  },
+  {
+   "id": "b207",
+   "memory_mib": 45.0
+  },
+  {
+   "id": "b208",
+   "memory_mib": 79.0
+  },
+  {
+   "id": "b209",
+   "memory_mib": 29.0
+  },
+  {
+   "id": "b210",
+   "memory_mib": 81.0
+  },
+  {
+   "id": "b211",
+   "memory_mib": 82.0
+  },
+  {
+   "id": "b212",
+   "memory_mib": 31.0
+  },
+  {
+   "id": "b213",
+   "memory_mib": 85.0
+  },
+  {
+   "id": "b214",
+   "memory_mib": 33.0
+  },
+  {
+   "id": "b215",
+   "memory_mib": 31.0
+  }
+ ],
+ "paths": [
+  {
+   "id": "prune0/dining_table/frozen_0",
+   "training_cost_s": 36000.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b4",
+      "b5",
+      "b6",
+      "b7"
+     ],
+     "inference_time_s": 0.0221,
+     "accuracy": {
+      "dining_table": [
+       0.617,
+       0.58,
+       0.214
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b4",
+      "b5",
+      "b6",
+      "b7"
+     ],
+     "inference_time_s": 0.0346,
+     "accuracy": {
+      "dining_table": [
+       0.364,
+       0.345,
+       0.173
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/dining_table/frozen_1_4",
+   "training_cost_s": 29700.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b8",
+      "b9",
+      "b10"
+     ],
+     "inference_time_s": 0.0204,
+     "accuracy": {
+      "dining_table": [
+       0.591,
+       0.51,
+       0.2
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b8",
+      "b9",
+      "b10"
+     ],
+     "inference_time_s": 0.034,
+     "accuracy": {
+      "dining_table": [
+       0.362,
+       0.343,
+       0.172
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/dining_table/frozen_2_4",
+   "training_cost_s": 21750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b11",
+      "b12"
+     ],
+     "inference_time_s": 0.0201,
+     "accuracy": {
+      "dining_table": [
+       0.562,
+       0.43,
+       0.17
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b11",
+      "b12"
+     ],
+     "inference_time_s": 0.0342,
+     "accuracy": {
+      "dining_table": [
+       0.34,
+       0.323,
+       0.162
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/dining_table/frozen_3_4",
+   "training_cost_s": 18750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b13"
+     ],
+     "inference_time_s": 0.0213,
+     "accuracy": {
+      "dining_table": [
+       0.532,
+       0.377,
+       0.15
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b13"
+     ],
+     "inference_time_s": 0.0341,
+     "accuracy": {
+      "dining_table": [
+       0.33,
+       0.313,
+       0.157
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/shared/all_frozen",
+   "training_cost_s": 15450.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b3"
+     ],
+     "inference_time_s": 0.0214,
+     "accuracy": {
+      "dining_table": [
+       0.492,
+       0.37,
+       0.172
+      ],
+      "dog": [
+       0.51,
+       0.467,
+       0.178
+      ],
+      "horse": [
+       0.468,
+       0.37,
+       0.162
+      ],
+      "motorbike": [
+       0.522,
+       0.36,
+       0.14
+      ],
+      "person": [
+       0.511,
+       0.312,
+       0.14
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b3"
+     ],
+     "inference_time_s": 0.0341,
+     "accuracy": {
+      "dining_table": [
+       0.219,
+       0.208,
+       0.104
+      ],
+      "dog": [
+       0.402,
+       0.381,
+       0.191
+      ],
+      "horse": [
+       0.141,
+       0.133,
+       0.067
+      ],
+      "motorbike": [
+       0.219,
+       0.208,
+       0.104
+      ],
+      "person": [
+       0.21,
+       0.31,
+       0.155
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/dog/frozen_0",
+   "training_cost_s": 36000.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b14",
+      "b15",
+      "b16",
+      "b17"
+     ],
+     "inference_time_s": 0.0221,
+     "accuracy": {
+      "dog": [
+       0.671,
+       0.563,
+       0.209
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b14",
+      "b15",
+      "b16",
+      "b17"
+     ],
+     "inference_time_s": 0.0346,
+     "accuracy": {
+      "dog": [
+       0.574,
+       0.545,
+       0.273
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/dog/frozen_1_4",
+   "training_cost_s": 29700.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b18",
+      "b19",
+      "b20"
+     ],
+     "inference_time_s": 0.0204,
+     "accuracy": {
+      "dog": [
+       0.598,
+       0.552,
+       0.162
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b18",
+      "b19",
+      "b20"
+     ],
+     "inference_time_s": 0.034,
+     "accuracy": {
+      "dog": [
+       0.488,
+       0.463,
+       0.232
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/dog/frozen_2_4",
+   "training_cost_s": 21750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b21",
+      "b22"
+     ],
+     "inference_time_s": 0.0201,
+     "accuracy": {
+      "dog": [
+       0.567,
+       0.516,
+       0.161
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b21",
+      "b22"
+     ],
+     "inference_time_s": 0.0342,
+     "accuracy": {
+      "dog": [
+       0.456,
+       0.433,
+       0.217
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/dog/frozen_3_4",
+   "training_cost_s": 18750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b23"
+     ],
+     "inference_time_s": 0.0213,
+     "accuracy": {
+      "dog": [
+       0.54,
+       0.499,
+       0.154
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b23"
+     ],
+     "inference_time_s": 0.0341,
+     "accuracy": {
+      "dog": [
+       0.41,
+       0.389,
+       0.195
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/horse/frozen_0",
+   "training_cost_s": 36000.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b24",
+      "b25",
+      "b26",
+      "b27"
+     ],
+     "inference_time_s": 0.0221,
+     "accuracy": {
+      "horse": [
+       0.643,
+       0.514,
+       0.245
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b24",
+      "b25",
+      "b26",
+      "b27"
+     ],
+     "inference_time_s": 0.0346,
+     "accuracy": {
+      "horse": [
+       0.25,
+       0.237,
+       0.119
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/horse/frozen_1_4",
+   "training_cost_s": 29700.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b28",
+      "b29",
+      "b30"
+     ],
+     "inference_time_s": 0.0204,
+     "accuracy": {
+      "horse": [
+       0.611,
+       0.489,
+       0.214
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b28",
+      "b29",
+      "b30"
+     ],
+     "inference_time_s": 0.034,
+     "accuracy": {
+      "horse": [
+       0.21,
+       0.199,
+       0.1
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/horse/frozen_2_4",
+   "training_cost_s": 21750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b31",
+      "b32"
+     ],
+     "inference_time_s": 0.0201,
+     "accuracy": {
+      "horse": [
+       0.589,
+       0.412,
+       0.2
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b31",
+      "b32"
+     ],
+     "inference_time_s": 0.0342,
+     "accuracy": {
+      "horse": [
+       0.199,
+       0.189,
+       0.095
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/horse/frozen_3_4",
+   "training_cost_s": 18750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b33"
+     ],
+     "inference_time_s": 0.0213,
+     "accuracy": {
+      "horse": [
+       0.572,
+       0.39,
+       0.178
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b33"
+     ],
+     "inference_time_s": 0.0341,
+     "accuracy": {
+      "horse": [
+       0.191,
+       0.181,
+       0.091
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/motorbike/frozen_0",
+   "training_cost_s": 36000.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b34",
+      "b35",
+      "b36",
+      "b37"
+     ],
+     "inference_time_s": 0.0221,
+     "accuracy": {
+      "motorbike": [
+       0.589,
+       0.51,
+       0.182
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b34",
+      "b35",
+      "b36",
+      "b37"
+     ],
+     "inference_time_s": 0.0346,
+     "accuracy": {
+      "motorbike": [
+       0.41,
+       0.3895,
+       0.195
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/motorbike/frozen_1_4",
+   "training_cost_s": 29700.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b38",
+      "b39",
+      "b40"
+     ],
+     "inference_time_s": 0.0204,
+     "accuracy": {
+      "motorbike": [
+       0.581,
+       0.501,
+       0.168
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b38",
+      "b39",
+      "b40"
+     ],
+     "inference_time_s": 0.034,
+     "accuracy": {
+      "motorbike": [
+       0.36,
+       0.342,
+       0.171
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/motorbike/frozen_2_4",
+   "training_cost_s": 21750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b41",
+      "b42"
+     ],
+     "inference_time_s": 0.0201,
+     "accuracy": {
+      "motorbike": [
+       0.576,
+       0.489,
+       0.162
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b41",
+      "b42"
+     ],
+     "inference_time_s": 0.0342,
+     "accuracy": {
+      "motorbike": [
+       0.3,
+       0.285,
+       0.142
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/motorbike/frozen_3_4",
+   "training_cost_s": 18750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b43"
+     ],
+     "inference_time_s": 0.0213,
+     "accuracy": {
+      "motorbike": [
+       0.555,
+       0.444,
+       0.152
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b43"
+     ],
+     "inference_time_s": 0.0341,
+     "accuracy": {
+      "motorbike": [
+       0.27,
+       0.2565,
+       0.128
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/person/frozen_0",
+   "training_cost_s": 36000.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b44",
+      "b45",
+      "b46",
+      "b47"
+     ],
+     "inference_time_s": 0.0221,
+     "accuracy": {
+      "person": [
+       0.585,
+       0.448,
+       0.162
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b44",
+      "b45",
+      "b46",
+      "b47"
+     ],
+     "inference_time_s": 0.0346,
+     "accuracy": {
+      "person": [
+       0.407,
+       0.386,
+       0.193
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/person/frozen_1_4",
+   "training_cost_s": 29700.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b48",
+      "b49",
+      "b50"
+     ],
+     "inference_time_s": 0.0204,
+     "accuracy": {
+      "person": [
+       0.581,
+       0.421,
+       0.143
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b48",
+      "b49",
+      "b50"
+     ],
+     "inference_time_s": 0.034,
+     "accuracy": {
+      "person": [
+       0.38,
+       0.367,
+       0.184
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/person/frozen_2_4",
+   "training_cost_s": 21750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b51",
+      "b52"
+     ],
+     "inference_time_s": 0.0201,
+     "accuracy": {
+      "person": [
+       0.576,
+       0.389,
+       0.137
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b51",
+      "b52"
+     ],
+     "inference_time_s": 0.0342,
+     "accuracy": {
+      "person": [
+       0.31,
+       0.348,
+       0.174
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune0/person/frozen_3_4",
+   "training_cost_s": 18750.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b53"
+     ],
+     "inference_time_s": 0.0213,
+     "accuracy": {
+      "person": [
+       0.539,
+       0.312,
+       0.128
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b0",
+      "b1",
+      "b2",
+      "b53"
+     ],
+     "inference_time_s": 0.0341,
+     "accuracy": {
+      "person": [
+       0.255,
+       0.329,
+       0.165
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/dining_table/frozen_0",
+   "training_cost_s": 9730.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b58",
+      "b59",
+      "b60",
+      "b61"
+     ],
+     "inference_time_s": 0.0185,
+     "accuracy": {
+      "dining_table": [
+       0.4,
+       0.31,
+       0.156
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b58",
+      "b59",
+      "b60",
+      "b61"
+     ],
+     "inference_time_s": 0.0294,
+     "accuracy": {
+      "dining_table": [
+       0.319,
+       0.303,
+       0.152
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/dining_table/frozen_1_4",
+   "training_cost_s": 9243.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b62",
+      "b63",
+      "b64"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "dining_table": [
+       0.398,
+       0.399,
+       0.144
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b62",
+      "b63",
+      "b64"
+     ],
+     "inference_time_s": 0.0298,
+     "accuracy": {
+      "dining_table": [
+       0.304,
+       0.28,
+       0.144
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/dining_table/frozen_2_4",
+   "training_cost_s": 20095.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b65",
+      "b66"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "dining_table": [
+       0.378,
+       0.38,
+       0.121
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b65",
+      "b66"
+     ],
+     "inference_time_s": 0.0299,
+     "accuracy": {
+      "dining_table": [
+       0.291,
+       0.276,
+       0.138
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/dining_table/frozen_3_4",
+   "training_cost_s": 13865.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b67"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "dining_table": [
+       0.31,
+       0.372,
+       0.11
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b67"
+     ],
+     "inference_time_s": 0.0302,
+     "accuracy": {
+      "dining_table": [
+       0.261,
+       0.247,
+       0.124
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/shared/all_frozen",
+   "training_cost_s": 15421.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b57"
+     ],
+     "inference_time_s": 0.0151,
+     "accuracy": {
+      "dining_table": [
+       0.481,
+       0.42,
+       0.17
+      ],
+      "dog": [
+       0.43,
+       0.42,
+       0.16
+      ],
+      "horse": [
+       0.422,
+       0.37,
+       0.178
+      ],
+      "motorbike": [
+       0.472,
+       0.41,
+       0.152
+      ],
+      "person": [
+       0.4,
+       0.31,
+       0.128
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b57"
+     ],
+     "inference_time_s": 0.0303,
+     "accuracy": {
+      "dining_table": [
+       0.31,
+       0.294,
+       0.147
+      ],
+      "dog": [
+       0.373,
+       0.354,
+       0.177
+      ],
+      "horse": [
+       0.103,
+       0.097,
+       0.049
+      ],
+      "motorbike": [
+       0.31,
+       0.2945,
+       0.147
+      ],
+      "person": [
+       0.244,
+       0.215,
+       0.108
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/dog/frozen_0",
+   "training_cost_s": 9730.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b68",
+      "b69",
+      "b70",
+      "b71"
+     ],
+     "inference_time_s": 0.0185,
+     "accuracy": {
+      "dog": [
+       0.44,
+       0.37,
+       0.165
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b68",
+      "b69",
+      "b70",
+      "b71"
+     ],
+     "inference_time_s": 0.0294,
+     "accuracy": {
+      "dog": [
+       0.541,
+       0.513,
+       0.257
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/dog/frozen_1_4",
+   "training_cost_s": 9243.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b72",
+      "b73",
+      "b74"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "dog": [
+       0.41,
+       0.35,
+       0.145
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b72",
+      "b73",
+      "b74"
+     ],
+     "inference_time_s": 0.0298,
+     "accuracy": {
+      "dog": [
+       0.455,
+       0.432,
+       0.216
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/dog/frozen_2_4",
+   "training_cost_s": 20095.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b75",
+      "b76"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "dog": [
+       0.391,
+       0.32,
+       0.13
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b75",
+      "b76"
+     ],
+     "inference_time_s": 0.0299,
+     "accuracy": {
+      "dog": [
+       0.41,
+       0.389,
+       0.195
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/dog/frozen_3_4",
+   "training_cost_s": 13865.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b77"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "dog": [
+       0.33,
+       0.31,
+       0.128
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b77"
+     ],
+     "inference_time_s": 0.0302,
+     "accuracy": {
+      "dog": [
+       0.402,
+       0.381,
+       0.191
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/horse/frozen_0",
+   "training_cost_s": 9730.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b78",
+      "b79",
+      "b80",
+      "b81"
+     ],
+     "inference_time_s": 0.0185,
+     "accuracy": {
+      "horse": [
+       0.441,
+       0.32,
+       0.14
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b78",
+      "b79",
+      "b80",
+      "b81"
+     ],
+     "inference_time_s": 0.0294,
+     "accuracy": {
+      "horse": [
+       0.195,
+       0.185,
+       0.093
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/horse/frozen_1_4",
+   "training_cost_s": 9243.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b82",
+      "b83",
+      "b84"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "horse": [
+       0.42,
+       0.312,
+       0.13
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b82",
+      "b83",
+      "b84"
+     ],
+     "inference_time_s": 0.0298,
+     "accuracy": {
+      "horse": [
+       0.182,
+       0.172,
+       0.086
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/horse/frozen_2_4",
+   "training_cost_s": 20095.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b85",
+      "b86"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "horse": [
+       0.415,
+       0.289,
+       0.129
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b85",
+      "b86"
+     ],
+     "inference_time_s": 0.0299,
+     "accuracy": {
+      "horse": [
+       0.155,
+       0.147,
+       0.074
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/horse/frozen_3_4",
+   "training_cost_s": 13865.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b87"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "horse": [
+       0.399,
+       0.271,
+       0.121
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b87"
+     ],
+     "inference_time_s": 0.0302,
+     "accuracy": {
+      "horse": [
+       0.14,
+       0.133,
+       0.066
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/motorbike/frozen_0",
+   "training_cost_s": 9730.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b88",
+      "b89",
+      "b90",
+      "b91"
+     ],
+     "inference_time_s": 0.0185,
+     "accuracy": {
+      "motorbike": [
+       0.491,
+       0.32,
+       0.123
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b88",
+      "b89",
+      "b90",
+      "b91"
+     ],
+     "inference_time_s": 0.0294,
+     "accuracy": {
+      "motorbike": [
+       0.319,
+       0.303,
+       0.152
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/motorbike/frozen_1_4",
+   "training_cost_s": 9243.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b92",
+      "b93",
+      "b94"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "motorbike": [
+       0.47,
+       0.28,
+       0.11
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b92",
+      "b93",
+      "b94"
+     ],
+     "inference_time_s": 0.0298,
+     "accuracy": {
+      "motorbike": [
+       0.304,
+       0.2888,
+       0.144
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/motorbike/frozen_2_4",
+   "training_cost_s": 20095.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b95",
+      "b96"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "motorbike": [
+       0.412,
+       0.27,
+       0.102
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b95",
+      "b96"
+     ],
+     "inference_time_s": 0.0299,
+     "accuracy": {
+      "motorbike": [
+       0.291,
+       0.2764,
+       0.138
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/motorbike/frozen_3_4",
+   "training_cost_s": 13865.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b97"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "motorbike": [
+       0.402,
+       0.23,
+       0.1
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b97"
+     ],
+     "inference_time_s": 0.0302,
+     "accuracy": {
+      "motorbike": [
+       0.261,
+       0.247,
+       0.124
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/person/frozen_0",
+   "training_cost_s": 9730.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b98",
+      "b99",
+      "b100",
+      "b101"
+     ],
+     "inference_time_s": 0.0185,
+     "accuracy": {
+      "person": [
+       0.46,
+       0.301,
+       0.133
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b98",
+      "b99",
+      "b100",
+      "b101"
+     ],
+     "inference_time_s": 0.0294,
+     "accuracy": {
+      "person": [
+       0.3,
+       0.291,
+       0.146
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/person/frozen_1_4",
+   "training_cost_s": 9243.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b102",
+      "b103",
+      "b104"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "person": [
+       0.41,
+       0.278,
+       0.123
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b102",
+      "b103",
+      "b104"
+     ],
+     "inference_time_s": 0.0298,
+     "accuracy": {
+      "person": [
+       0.307,
+       0.272,
+       0.136
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/person/frozen_2_4",
+   "training_cost_s": 20095.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b105",
+      "b106"
+     ],
+     "inference_time_s": 0.0182,
+     "accuracy": {
+      "person": [
+       0.39,
+       0.245,
+       0.101
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b105",
+      "b106"
+     ],
+     "inference_time_s": 0.0299,
+     "accuracy": {
+      "person": [
+       0.281,
+       0.253,
+       0.127
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune50/person/frozen_3_4",
+   "training_cost_s": 13865.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b107"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "person": [
+       0.37,
+       0.209,
+       0.1
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b54",
+      "b55",
+      "b56",
+      "b107"
+     ],
+     "inference_time_s": 0.0302,
+     "accuracy": {
+      "person": [
+       0.26,
+       0.234,
+       0.117
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/dining_table/frozen_0",
+   "training_cost_s": 7027.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b112",
+      "b113",
+      "b114",
+      "b115"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "dining_table": [
+       0.39,
+       0.381,
+       0.16
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b112",
+      "b113",
+      "b114",
+      "b115"
+     ],
+     "inference_time_s": 0.0249,
+     "accuracy": {
+      "dining_table": [
+       0.27,
+       0.256,
+       0.128
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/dining_table/frozen_1_4",
+   "training_cost_s": 7676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b116",
+      "b117",
+      "b118"
+     ],
+     "inference_time_s": 0.0157,
+     "accuracy": {
+      "dining_table": [
+       0.38,
+       0.311,
+       0.152
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b116",
+      "b117",
+      "b118"
+     ],
+     "inference_time_s": 0.0251,
+     "accuracy": {
+      "dining_table": [
+       0.26,
+       0.247,
+       0.124
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/dining_table/frozen_2_4",
+   "training_cost_s": 7654.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b119",
+      "b120"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "dining_table": [
+       0.32,
+       0.303,
+       0.15
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b119",
+      "b120"
+     ],
+     "inference_time_s": 0.0256,
+     "accuracy": {
+      "dining_table": [
+       0.243,
+       0.23,
+       0.115
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/dining_table/frozen_3_4",
+   "training_cost_s": 9108.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b121"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "dining_table": [
+       0.29,
+       0.27,
+       0.131
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b121"
+     ],
+     "inference_time_s": 0.0258,
+     "accuracy": {
+      "dining_table": [
+       0.201,
+       0.19,
+       0.095
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/shared/all_frozen",
+   "training_cost_s": 14108.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b111"
+     ],
+     "inference_time_s": 0.0152,
+     "accuracy": {
+      "dining_table": [
+       0.4,
+       0.39,
+       0.17
+      ],
+      "dog": [
+       0.41,
+       0.38,
+       0.17
+      ],
+      "horse": [
+       0.401,
+       0.333,
+       0.178
+      ],
+      "motorbike": [
+       0.41,
+       0.402,
+       0.15
+      ],
+      "person": [
+       0.405,
+       0.312,
+       0.121
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b111"
+     ],
+     "inference_time_s": 0.028,
+     "accuracy": {
+      "dining_table": [
+       0.189,
+       0.179,
+       0.09
+      ],
+      "dog": [
+       0.33,
+       0.313,
+       0.157
+      ],
+      "horse": [
+       0.1,
+       0.095,
+       0.048
+      ],
+      "motorbike": [
+       0.189,
+       0.1795,
+       0.09
+      ],
+      "person": [
+       0.196,
+       0.12,
+       0.06
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/dog/frozen_0",
+   "training_cost_s": 7027.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b122",
+      "b123",
+      "b124",
+      "b125"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "dog": [
+       0.41,
+       0.39,
+       0.162
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b122",
+      "b123",
+      "b124",
+      "b125"
+     ],
+     "inference_time_s": 0.0249,
+     "accuracy": {
+      "dog": [
+       0.412,
+       0.391,
+       0.196
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/dog/frozen_1_4",
+   "training_cost_s": 7676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b126",
+      "b127",
+      "b128"
+     ],
+     "inference_time_s": 0.0157,
+     "accuracy": {
+      "dog": [
+       0.4,
+       0.388,
+       0.156
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b126",
+      "b127",
+      "b128"
+     ],
+     "inference_time_s": 0.0251,
+     "accuracy": {
+      "dog": [
+       0.409,
+       0.388,
+       0.194
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/dog/frozen_2_4",
+   "training_cost_s": 7654.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b129",
+      "b130"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "dog": [
+       0.39,
+       0.371,
+       0.148
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b129",
+      "b130"
+     ],
+     "inference_time_s": 0.0256,
+     "accuracy": {
+      "dog": [
+       0.396,
+       0.376,
+       0.188
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/dog/frozen_3_4",
+   "training_cost_s": 9108.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b131"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "dog": [
+       0.39,
+       0.31,
+       0.134
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b131"
+     ],
+     "inference_time_s": 0.0258,
+     "accuracy": {
+      "dog": [
+       0.391,
+       0.371,
+       0.186
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/horse/frozen_0",
+   "training_cost_s": 7027.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b132",
+      "b133",
+      "b134",
+      "b135"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "horse": [
+       0.415,
+       0.342,
+       0.161
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b132",
+      "b133",
+      "b134",
+      "b135"
+     ],
+     "inference_time_s": 0.0249,
+     "accuracy": {
+      "horse": [
+       0.178,
+       0.169,
+       0.085
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/horse/frozen_1_4",
+   "training_cost_s": 7676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b136",
+      "b137",
+      "b138"
+     ],
+     "inference_time_s": 0.0157,
+     "accuracy": {
+      "horse": [
+       0.322,
+       0.312,
+       0.143
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b136",
+      "b137",
+      "b138"
+     ],
+     "inference_time_s": 0.0251,
+     "accuracy": {
+      "horse": [
+       0.16,
+       0.152,
+       0.076
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/horse/frozen_2_4",
+   "training_cost_s": 7654.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b139",
+      "b140"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "horse": [
+       0.321,
+       0.31,
+       0.14
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b139",
+      "b140"
+     ],
+     "inference_time_s": 0.0256,
+     "accuracy": {
+      "horse": [
+       0.152,
+       0.144,
+       0.072
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/horse/frozen_3_4",
+   "training_cost_s": 9108.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b141"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "horse": [
+       0.287,
+       0.302,
+       0.13
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b141"
+     ],
+     "inference_time_s": 0.0258,
+     "accuracy": {
+      "horse": [
+       0.121,
+       0.114,
+       0.057
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/motorbike/frozen_0",
+   "training_cost_s": 7027.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b142",
+      "b143",
+      "b144",
+      "b145"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "motorbike": [
+       0.4,
+       0.378,
+       0.134
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b142",
+      "b143",
+      "b144",
+      "b145"
+     ],
+     "inference_time_s": 0.0249,
+     "accuracy": {
+      "motorbike": [
+       0.27,
+       0.2565,
+       0.128
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/motorbike/frozen_1_4",
+   "training_cost_s": 7676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b146",
+      "b147",
+      "b148"
+     ],
+     "inference_time_s": 0.0157,
+     "accuracy": {
+      "motorbike": [
+       0.378,
+       0.367,
+       0.122
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b146",
+      "b147",
+      "b148"
+     ],
+     "inference_time_s": 0.0251,
+     "accuracy": {
+      "motorbike": [
+       0.26,
+       0.247,
+       0.124
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/motorbike/frozen_2_4",
+   "training_cost_s": 7654.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b149",
+      "b150"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "motorbike": [
+       0.367,
+       0.31,
+       0.112
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b149",
+      "b150"
+     ],
+     "inference_time_s": 0.0256,
+     "accuracy": {
+      "motorbike": [
+       0.243,
+       0.2308,
+       0.115
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/motorbike/frozen_3_4",
+   "training_cost_s": 9108.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b151"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "motorbike": [
+       0.281,
+       0.28,
+       0.109
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b151"
+     ],
+     "inference_time_s": 0.0258,
+     "accuracy": {
+      "motorbike": [
+       0.201,
+       0.191,
+       0.095
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/person/frozen_0",
+   "training_cost_s": 7027.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b152",
+      "b153",
+      "b154",
+      "b155"
+     ],
+     "inference_time_s": 0.0161,
+     "accuracy": {
+      "person": [
+       0.399,
+       0.301,
+       0.129
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b152",
+      "b153",
+      "b154",
+      "b155"
+     ],
+     "inference_time_s": 0.0249,
+     "accuracy": {
+      "person": [
+       0.22,
+       0.196,
+       0.098
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/person/frozen_1_4",
+   "training_cost_s": 7676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b156",
+      "b157",
+      "b158"
+     ],
+     "inference_time_s": 0.0157,
+     "accuracy": {
+      "person": [
+       0.381,
+       0.26,
+       0.114
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b156",
+      "b157",
+      "b158"
+     ],
+     "inference_time_s": 0.0251,
+     "accuracy": {
+      "person": [
+       0.201,
+       0.177,
+       0.089
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/person/frozen_2_4",
+   "training_cost_s": 7654.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b159",
+      "b160"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "person": [
+       0.34,
+       0.24,
+       0.1
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b159",
+      "b160"
+     ],
+     "inference_time_s": 0.0256,
+     "accuracy": {
+      "person": [
+       0.244,
+       0.158,
+       0.079
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune70/person/frozen_3_4",
+   "training_cost_s": 9108.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b161"
+     ],
+     "inference_time_s": 0.0155,
+     "accuracy": {
+      "person": [
+       0.31,
+       0.21,
+       0.09
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b108",
+      "b109",
+      "b110",
+      "b161"
+     ],
+     "inference_time_s": 0.0258,
+     "accuracy": {
+      "person": [
+       0.21,
+       0.139,
+       0.07
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/dining_table/frozen_0",
+   "training_cost_s": 973.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b166",
+      "b167",
+      "b168",
+      "b169"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "dining_table": [
+       0.391,
+       0.301,
+       0.162
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b166",
+      "b167",
+      "b168",
+      "b169"
+     ],
+     "inference_time_s": 0.0261,
+     "accuracy": {
+      "dining_table": [
+       0.299,
+       0.284,
+       0.142
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/dining_table/frozen_1_4",
+   "training_cost_s": 1946.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b170",
+      "b171",
+      "b172"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "dining_table": [
+       0.35,
+       0.291,
+       0.142
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b170",
+      "b171",
+      "b172"
+     ],
+     "inference_time_s": 0.0267,
+     "accuracy": {
+      "dining_table": [
+       0.278,
+       0.264,
+       0.132
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/dining_table/frozen_2_4",
+   "training_cost_s": 2189.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b173",
+      "b174"
+     ],
+     "inference_time_s": 0.0145,
+     "accuracy": {
+      "dining_table": [
+       0.33,
+       0.277,
+       0.132
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b173",
+      "b174"
+     ],
+     "inference_time_s": 0.0274,
+     "accuracy": {
+      "dining_table": [
+       0.178,
+       0.169,
+       0.085
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/dining_table/frozen_3_4",
+   "training_cost_s": 2676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b175"
+     ],
+     "inference_time_s": 0.0141,
+     "accuracy": {
+      "dining_table": [
+       0.33,
+       0.25,
+       0.127
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b175"
+     ],
+     "inference_time_s": 0.0279,
+     "accuracy": {
+      "dining_table": [
+       0.178,
+       0.169,
+       0.085
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/shared/all_frozen",
+   "training_cost_s": 15123.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b165"
+     ],
+     "inference_time_s": 0.0141,
+     "accuracy": {
+      "dining_table": [
+       0.39,
+       0.29,
+       0.168
+      ],
+      "dog": [
+       0.392,
+       0.292,
+       0.171
+      ],
+      "horse": [
+       0.32,
+       0.37,
+       0.11
+      ],
+      "motorbike": [
+       0.312,
+       0.4,
+       0.08
+      ],
+      "person": [
+       0.31,
+       0.312,
+       0.09
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b165"
+     ],
+     "inference_time_s": 0.0342,
+     "accuracy": {
+      "dining_table": [
+       0.188,
+       0.178,
+       0.089
+      ],
+      "dog": [
+       0.22,
+       0.209,
+       0.104
+      ],
+      "horse": [
+       0.077,
+       0.0731,
+       0.037
+      ],
+      "motorbike": [
+       0.188,
+       0.1786,
+       0.089
+      ],
+      "person": [
+       0.132,
+       0.025,
+       0.013
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/dog/frozen_0",
+   "training_cost_s": 973.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b176",
+      "b177",
+      "b178",
+      "b179"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "dog": [
+       0.328,
+       0.29,
+       0.166
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b176",
+      "b177",
+      "b178",
+      "b179"
+     ],
+     "inference_time_s": 0.0261,
+     "accuracy": {
+      "dog": [
+       0.4,
+       0.38,
+       0.19
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/dog/frozen_1_4",
+   "training_cost_s": 1946.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b180",
+      "b181",
+      "b182"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "dog": [
+       0.312,
+       0.27,
+       0.161
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b180",
+      "b181",
+      "b182"
+     ],
+     "inference_time_s": 0.0267,
+     "accuracy": {
+      "dog": [
+       0.371,
+       0.352,
+       0.176
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/dog/frozen_2_4",
+   "training_cost_s": 2189.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b183",
+      "b184"
+     ],
+     "inference_time_s": 0.0145,
+     "accuracy": {
+      "dog": [
+       0.31,
+       0.268,
+       0.145
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b183",
+      "b184"
+     ],
+     "inference_time_s": 0.0274,
+     "accuracy": {
+      "dog": [
+       0.312,
+       0.296,
+       0.148
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/dog/frozen_3_4",
+   "training_cost_s": 2676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b185"
+     ],
+     "inference_time_s": 0.0141,
+     "accuracy": {
+      "dog": [
+       0.3,
+       0.262,
+       0.141
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b185"
+     ],
+     "inference_time_s": 0.0279,
+     "accuracy": {
+      "dog": [
+       0.279,
+       0.265,
+       0.133
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/horse/frozen_0",
+   "training_cost_s": 973.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b186",
+      "b187",
+      "b188",
+      "b189"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "horse": [
+       0.322,
+       0.278,
+       0.162
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b186",
+      "b187",
+      "b188",
+      "b189"
+     ],
+     "inference_time_s": 0.0261,
+     "accuracy": {
+      "horse": [
+       0.145,
+       0.137,
+       0.069
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/horse/frozen_1_4",
+   "training_cost_s": 1946.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b190",
+      "b191",
+      "b192"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "horse": [
+       0.32,
+       0.21,
+       0.152
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b190",
+      "b191",
+      "b192"
+     ],
+     "inference_time_s": 0.0267,
+     "accuracy": {
+      "horse": [
+       0.122,
+       0.115,
+       0.058
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/horse/frozen_2_4",
+   "training_cost_s": 2189.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b193",
+      "b194"
+     ],
+     "inference_time_s": 0.0145,
+     "accuracy": {
+      "horse": [
+       0.281,
+       0.201,
+       0.12
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b193",
+      "b194"
+     ],
+     "inference_time_s": 0.0274,
+     "accuracy": {
+      "horse": [
+       0.113,
+       0.107,
+       0.054
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/horse/frozen_3_4",
+   "training_cost_s": 2676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b195"
+     ],
+     "inference_time_s": 0.0141,
+     "accuracy": {
+      "horse": [
+       0.271,
+       0.201,
+       0.12
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b195"
+     ],
+     "inference_time_s": 0.0279,
+     "accuracy": {
+      "horse": [
+       0.098,
+       0.093,
+       0.047
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/motorbike/frozen_0",
+   "training_cost_s": 973.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b196",
+      "b197",
+      "b198",
+      "b199"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "motorbike": [
+       0.341,
+       0.276,
+       0.13
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b196",
+      "b197",
+      "b198",
+      "b199"
+     ],
+     "inference_time_s": 0.0261,
+     "accuracy": {
+      "motorbike": [
+       0.299,
+       0.2841,
+       0.142
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/motorbike/frozen_1_4",
+   "training_cost_s": 1946.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b200",
+      "b201",
+      "b202"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "motorbike": [
+       0.311,
+       0.2,
+       0.122
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b200",
+      "b201",
+      "b202"
+     ],
+     "inference_time_s": 0.0267,
+     "accuracy": {
+      "motorbike": [
+       0.278,
+       0.2641,
+       0.132
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/motorbike/frozen_2_4",
+   "training_cost_s": 2189.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b203",
+      "b204"
+     ],
+     "inference_time_s": 0.0145,
+     "accuracy": {
+      "motorbike": [
+       0.262,
+       0.18,
+       0.117
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b203",
+      "b204"
+     ],
+     "inference_time_s": 0.0274,
+     "accuracy": {
+      "motorbike": [
+       0.187,
+       0.1691,
+       0.085
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/motorbike/frozen_3_4",
+   "training_cost_s": 2676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b205"
+     ],
+     "inference_time_s": 0.0141,
+     "accuracy": {
+      "motorbike": [
+       0.21,
+       0.18,
+       0.1
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b205"
+     ],
+     "inference_time_s": 0.0279,
+     "accuracy": {
+      "motorbike": [
+       0.182,
+       0.1691,
+       0.085
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/person/frozen_0",
+   "training_cost_s": 973.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b206",
+      "b207",
+      "b208",
+      "b209"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "person": [
+       0.31,
+       0.22,
+       0.114
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b206",
+      "b207",
+      "b208",
+      "b209"
+     ],
+     "inference_time_s": 0.0261,
+     "accuracy": {
+      "person": [
+       0.213,
+       0.101,
+       0.051
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/person/frozen_1_4",
+   "training_cost_s": 1946.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b210",
+      "b211",
+      "b212"
+     ],
+     "inference_time_s": 0.0149,
+     "accuracy": {
+      "person": [
+       0.27,
+       0.19,
+       0.11
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b210",
+      "b211",
+      "b212"
+     ],
+     "inference_time_s": 0.0267,
+     "accuracy": {
+      "person": [
+       0.21,
+       0.082,
+       0.041
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/person/frozen_2_4",
+   "training_cost_s": 2189.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b213",
+      "b214"
+     ],
+     "inference_time_s": 0.0145,
+     "accuracy": {
+      "person": [
+       0.25,
+       0.16,
+       0.102
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b213",
+      "b214"
+     ],
+     "inference_time_s": 0.0274,
+     "accuracy": {
+      "person": [
+       0.199,
+       0.063,
+       0.032
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "prune85/person/frozen_3_4",
+   "training_cost_s": 2676.0,
+   "cv_methods": {
+    "od": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b215"
+     ],
+     "inference_time_s": 0.0141,
+     "accuracy": {
+      "person": [
+       0.22,
+       0.156,
+       0.1
+      ]
+     }
+    },
+    "is": {
+     "blocks": [
+      "b162",
+      "b163",
+      "b164",
+      "b215"
+     ],
+     "inference_time_s": 0.0279,
+     "accuracy": {
+      "person": [
+       0.177,
+       0.044,
+       0.022
+      ]
+     }
+    }
+   }
+  }
+ ]
+}
